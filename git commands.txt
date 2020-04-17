@@ -1,0 +1,12 @@
+To check the different between working directory and staging directory:
+git diff
+
+To check the different between working directory and commited directory(Last):
+git diff HEAD
+
+To check the different between staged and commited:
+git diff --staged HEAD
+
+To see all the git commit history:
+git log --oneline
+git log
