@@ -10,3 +10,6 @@ git diff --staged HEAD
 To see all the git commit history:
 git log --oneline
 git log
+
+to see the different from local commit to the remote commit:
+git diff master origin/master
