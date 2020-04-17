@@ -13,3 +13,16 @@ git log
 
 to see the different from local commit to the remote commit:
 git diff master origin/master
+
+
+To change the branch name:
+git branch -m old_name new_name
+
+To list all the branch even in remote:
+git branch -a
+
+To delete a branch:
+git branch -d branch_name
+
+To create a branch and move to that branch in single line commang
+git branch -b new_branch_name
