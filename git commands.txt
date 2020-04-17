@@ -26,3 +26,11 @@ git branch -d branch_name
 
 To create a branch and move to that branch in single line commang
 git branch -b new_branch_name
+
+
+
+git rebase
+
+git rebase --abort
+git rebase --continue  //after conflicting and changed
+git pull --rebase origin master
