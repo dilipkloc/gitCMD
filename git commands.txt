@@ -25,7 +25,7 @@ To delete a branch:
 git branch -d branch_name
 
 To create a branch and move to that branch in single line commang
-git branch -b new_branch_name
+git checkout -b new_branch_name
 
 
 
